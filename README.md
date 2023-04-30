@@ -40,7 +40,6 @@ from matplotlib import pyplot as plt
 ```
 ### Create the Text using cv2.putText
 ```python
-# Create the text using cv2.putText
 text_img = np.zeros((100,250),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SCRIPT_COMPLEX
 cv2.putText(text_img,"Senthil",(6,69),font,2,(255),2,cv2.LINE_AA) 
