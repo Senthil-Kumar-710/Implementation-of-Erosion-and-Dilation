@@ -40,9 +40,9 @@ from matplotlib import pyplot as plt
 ```
 ### Create the Text using cv2.putText
 ```python
-text_img = np.zeros((100,250),dtype = 'uint8')
+text_img = np.zeros((100,500),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SCRIPT_COMPLEX
-cv2.putText(text_img,"Senthil",(6,69),font,2,(255),2,cv2.LINE_AA) 
+cv2.putText(text_img,"Senthil Kumar",(6,69),font,2,(255),2,cv2.LINE_AA) 
 plt.title("Original Image")
 plt.imshow(text_img,'Greens')
 plt.axis('off')
@@ -68,15 +68,15 @@ plt.axis('off')
 ## Output:
 
 ### Display the input Image
-![1](https://user-images.githubusercontent.com/93860256/235347310-0a6f9edd-115e-496f-9432-5522e833f924.png)
+![1](https://github.com/Senthil-Kumar-710/demo/assets/93860256/e2a01462-24f9-4721-ae8e-6a4b0cd8c5c2)
 <br>
 
 ### Display the Eroded Image
-![2](https://user-images.githubusercontent.com/93860256/235347313-48076b26-8703-46e5-a9bb-46d2022dc5c5.png)
+![2](https://github.com/Senthil-Kumar-710/demo/assets/93860256/4500ee3d-e7f2-43e9-a6d3-d0782533f2e4)
 <br>
 
 ### Dilated Image
-![3](https://user-images.githubusercontent.com/93860256/235347315-1ca3ead2-a9c2-4592-88ec-78634ddcfe1f.png)
+![3](https://github.com/Senthil-Kumar-710/demo/assets/93860256/34b62427-13c8-4f6d-aa7c-5bd21c3d191b)
 <br>
 <br>
 <br>
